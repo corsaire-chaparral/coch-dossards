@@ -15,7 +15,10 @@
   /* 8x5 in */
   size: 203.2mm 127mm;
 
-  margin: 5mm;
+  margin-top: 2mm;
+  margin-right: 2mm;
+  margin-bottom: 2mm;
+  margin-left: 2mm;
 
   bleed: 0mm;
 }
