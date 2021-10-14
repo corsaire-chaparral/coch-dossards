@@ -2,6 +2,8 @@
 
 Pour générer des dossards avec [paged.js](https://pagedjs.org).
 
+![Aperçu](preview.png)
+
 ## Installation
 
 Pour l’export en ligne de commande (en utilisant `pagedjs-cli`):
