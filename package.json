@@ -1,0 +1,23 @@
+{
+  "name": "coch-dossards",
+  "version": "0.1.0",
+  "description": "Modèle pour générer des dossards.",
+  "main": "index.js",
+  "scripts": {
+    "help": "echo '  Run npx pagedjs-cli <your-file>.html out/<your-file>.pdf  ' ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/corsaire-chaparral/coch-dossards.git"
+  },
+  "author": "Louis-Olivier Brassard <louis@corsaire-chaparral.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/corsaire-chaparral/coch-dossards/issues"
+  },
+  "homepage": "https://github.com/corsaire-chaparral/coch-dossards#readme",
+  "dependencies": {
+    "pagedjs-cli": "^0.1.6"
+  }
+}

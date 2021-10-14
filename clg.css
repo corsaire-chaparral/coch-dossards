@@ -1,0 +1,84 @@
+/* CSS variables for anything *not* related to pagedjs layout */
+
+:root {
+  --orange: #ff6900;
+  --charcoal: #212721;
+  --number-font-size: 180pt;
+  --name-font-size: 28pt;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@page {
+  /* 8x5 in */
+  size: 203.2mm 127mm;
+
+  margin: 5mm;
+
+  bleed: 0mm;
+}
+
+/* Pagedjs generated content */
+.pagedjs_page_content > div {
+  height: 100%;
+}
+
+.page {
+  /* Break .page */
+  page-break-after: page;
+
+  /* Full height */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page__header {
+  border-bottom: 6pt solid var(--orange);
+  padding-bottom: 2pt;
+  font-size: 11pt;
+  color: var(--charcoal);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.page__center {
+  margin: auto 0;
+  text-align: center;
+  font-family: 'averta-web', sans-serif;
+  color: var(--charcoal);
+}
+
+.page__number {
+  font-size: var(--number-font-size);
+  line-height: var(--number-font-size);
+  font-weight: 800;
+  letter-spacing: .035em;
+}
+
+.page__name {
+  font-size: var(--name-font-size);
+  line-height: var(--name-font-size);
+}
+
+.page__footer {
+  border-top: 2pt solid var(--charcoal);
+}
+
+.page__logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10pt;
+}
+
+  .page__logos > img {
+    max-height: 75pt;
+    width: auto;
+  }

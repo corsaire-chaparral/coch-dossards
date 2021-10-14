@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf8">
+  <title>Dossards</title>
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" type="text/css" href="clg.css">
+
+  <!-- Fonts -->
+  <link rel="stylesheet" type="text/css" href="fonts/averta/averta.css">
+
+  <!-- Preview Paged.js interface -->
+  <script src="lib/pagedjs/paged.polyfill.js"></script>
+  <link media="screen" rel="stylesheet" type="text/css" href="lib/pagedjs/interface.css">
+</head>
+
+<body>
+
+  <!-- Each .page will be a separate page -->
+  <section class="page">
+
+    <header class="page__header">
+      <!-- page__header custom information -->
+      <span></span> <!-- Left -->
+      <span></span> <!-- Center -->
+      <span></span> <!-- Right -->
+    </header>
+
+    <main class="page__center">
+      <!-- page__number contents will be replaced with <number> -->
+      <div class="page__number">&nbsp;</div>
+
+      <!-- Name could be inserted here -->
+      <div class="page__name"></div>
+    </main>
+
+    <footer class="page__footer">
+      <div class="page__logos">
+        <!-- Display logos -->
+        <img
+          src="images/logo-clg.png"
+          alt=""
+        >
+        <img
+          src="images/COCH_FN_4C.png"
+          alt=""
+        >
+        <!-- /logos -->
+      </div>
+    </footer>
+  </section>
+
+  <!-- Config script -->
+  <script>
+    const DOSSARDS_MAX = 208;
+  </script>
+  <script src="lib/generate-pages.js"></script>
+
+  <!-- Pagedjs magic -->
+<!--  <script src="lib/pagedjs/paged.js"></script>-->
+
+</body>
+</html>
